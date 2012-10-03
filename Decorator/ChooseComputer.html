@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+body
+	{
+		font-family:Verdana, Arial;
+		color:#151919;
+		background-color:#E5B744;
+		font-size;11pt;
+	}
+h1	
+	{
+		color:#733218;
+	}
+h2
+	{
+		color:#8C7C40;
+	}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Choose Computer</title>
+</head>
+<body>
+<h1>Decorator Computer Store</h1>
+<h2>Select a Compuer:</h2>
+<form action="Client.php" method="post">
+<input type="radio" name="query" value="dell" />
+Dell Computer<br/>
+<input type="radio" name="query" value="apple" />
+Apple Macintosh<p/>
+
+<h2>Select Components</h2>
+
+<input type="checkbox" name=accessories[] value="bigmonitor" />
+Big Monitor<br/>
+<input type="checkbox" name=accessories[] value="terabyte" />
+Terabyte External Storage<br/>
+<input type="checkbox" name=accessories[] value="hub" />
+USB Hub<p/>
+<input type="submit" name="sendNow" value="Place Order" />
+</form>
+</body>
+</html>
